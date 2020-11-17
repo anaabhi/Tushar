@@ -659,7 +659,7 @@ body {
 		<div class="choose animate-box">
 			<h2>Contact</h2>
 			<form action="https://formspree.io/f/xleolpok"
-  method="POST">
+  method="POST" id="my-form">
 				<div class="row form-group">
 					<div class="col-md-6">
 						<input type="text" id="fname" class="form-control" placeholder="Your firstname" name="firstname">
@@ -689,9 +689,9 @@ body {
 					</div>
 				</div>
 				<div class="form-group">
-					<input type="submit" value="Send Message" class="btn btn-primary" onclick="submit();">
-					<input type="hidden"  name="_next" value="//tusharnautiyal-web.github.io/Tushar/projects" >
+					<input type="submit" value="Send Message" class="btn btn-primary">
 				</div>
+				<div id="status"></div>
 				<!-- *NEW SweetAlert For Contact Form Submission Thank You -->
 		
 
